@@ -21,7 +21,7 @@
         tx_delay_clear_timeout: 0,
         items: [
             {
-                image: "/images/screenshots/mac/client-one.png",
+                image: `${base}/images/screenshots/mac/client-one.png`,
                 name: "PokerUnicorn Player One",
                 rotation: -10,
                 scale: 0.75,
@@ -29,7 +29,7 @@
                 y: 0
             },
             {
-                image: "/images/screenshots/mac/lobby.png",
+                image: `${base}/images/screenshots/mac/lobby.png`,
                 name: "PokerUnicorn Lounge",
                 rotation: 0,
                 scale: 1,
@@ -37,7 +37,7 @@
                 y: 0
             },
             {
-                image: "/images/screenshots/mac/client-two.png",
+                image: `${base}/images/screenshots/mac/client-two.png`,
                 name: "PokerUnicorn Player Two",
                 rotation: 10,
                 scale: 0.75,

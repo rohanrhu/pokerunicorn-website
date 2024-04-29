@@ -225,7 +225,7 @@
                             Multiple Platforms
                         </div>
                         <div class="Landing_sections_section_explanation_desc">
-                            PokerUnicorn client can be built to many platforms. Currently it supports <span class="highlight__light">Windows</span>, <span class="highlight__light">macOS</span>, <span class="highlight__light">Linux</span> and Web.
+                            PokerUnicorn client can be built to many platforms. Currently it supports <span class="highlight__light">Windows</span>, <span class="highlight__light">macOS</span>, <span class="highlight__light">Linux</span>, <span class="highlight__light">Web</span> platforms.
                         </div>
                     </div>
                 </div>

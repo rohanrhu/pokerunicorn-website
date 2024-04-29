@@ -6,7 +6,7 @@
     <div class="Error">
         <a class="Error_logo" href="/">
             <div class="Error_logo_icon">
-                <img class="Error_logo_icon_img" src="/images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
+                <img class="Error_logo_icon_img" src="./images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
             </div>
             <div class="Error_logo_label">
                 PokerUnicorn

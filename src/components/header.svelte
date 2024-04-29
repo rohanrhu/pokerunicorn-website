@@ -7,7 +7,7 @@
 <div class="Header">
     <a class="Header_logo" href="/">
         <div class="Header_logo_icon">
-            <img class="Header_logo_icon_img" src="/images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
+            <img class="Header_logo_icon_img" src="./images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
         </div>
         <div class="Header_logo_label">
             PokerUnicorn

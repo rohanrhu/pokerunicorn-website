@@ -16,7 +16,7 @@
         </a>
         <a class="Footer_social_a" href="https://discord.gg/RyVY9MtB4S">
             <div class="Footer_social_a_icon">
-                <img src="/images/discord.svg" alt="Discord" style="height: 20px; filter: brightness(0) invert(1);" />
+                <img src="./images/discord.svg" alt="Discord" style="height: 20px; filter: brightness(0) invert(1);" />
             </div>
             <div class="Footer_social_a_label">
                 Discord

@@ -1,30 +1,31 @@
 <script>
+    import { base } from "$app/paths";
 	import { GithubIcon, HeartIcon } from "svelte-feather-icons";
 
     export let current_page = "";
 </script>
 
 <div class="Header">
-    <a class="Header_logo" href="/">
+    <a class="Header_logo" href="{base}/">
         <div class="Header_logo_icon">
-            <img class="Header_logo_icon_img" src="./images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
+            <img class="Header_logo_icon_img" src="{base}/images/pokerunicorn-mascot.png" alt="PokerUnicorn" />
         </div>
         <div class="Header_logo_label">
             PokerUnicorn
         </div>
     </a>
     <div class="Header_menu">
-        <a class="Header_menu_item {current_page == 'home' ? 'Header_menu_item__current': ''}" href="/">
+        <a class="Header_menu_item {current_page == 'home' ? 'Header_menu_item__current': ''}" href="{base}/">
             Home
         </a>
-        <a class="Header_menu_item {current_page == 'play' ? 'Header_menu_item__current': ''}" href="/play">
+        <a class="Header_menu_item {current_page == 'play' ? 'Header_menu_item__current': ''}" href="{base}/play">
             Play the Demo
         </a>
-        <a class="Header_menu_item {current_page == 'documentation' ? 'Header_menu_item__current': ''}" href="/documentation">
+        <a class="Header_menu_item {current_page == 'documentation' ? 'Header_menu_item__current': ''}" href="{base}/documentation">
 
             Documentation
         </a>
-        <a class="Header_menu_item {current_page == 'donate' ? 'Header_menu_item__current': ''}" href="/donate">
+        <a class="Header_menu_item {current_page == 'donate' ? 'Header_menu_item__current': ''}" href="{base}/donate">
             <div class="Header_menu_item_icon">
                 <HeartIcon size=15 />
             </div>

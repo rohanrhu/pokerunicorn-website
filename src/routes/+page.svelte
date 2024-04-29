@@ -1,4 +1,5 @@
 <script>
+    import { base } from "$app/paths";
     import { browser } from "$app/environment";
 	import Footer from "../components/footer.svelte";
     import Header from "../components/header.svelte";
@@ -124,7 +125,7 @@
         <div class="Landing_features_items">
             <div class="Landing_features_items_item">
                 <div class="Landing_features_items_item_image">
-                    <img class="Landing_features_items_item_image_img" src="./images/osi.png" alt="" />
+                    <img class="Landing_features_items_item_image_img" src="{base}/images/osi.png" alt="" />
                 </div>
                 <div class="Landing_features_items_item_title">
                     Open Source Infrastructure
@@ -135,7 +136,7 @@
             </div>
             <div class="Landing_features_items_item">
                 <div class="Landing_features_items_item_image">
-                    <img class="Landing_features_items_item_image_img" src="./images/gazelle.svg" alt="" />
+                    <img class="Landing_features_items_item_image_img" src="{base}/images/gazelle.svg" alt="" />
                 </div>
                 <div class="Landing_features_items_item_title">
                     Fast, Secure and Easy
@@ -146,7 +147,7 @@
             </div>
             <div class="Landing_features_items_item">
                 <div class="Landing_features_items_item_image">
-                    <img class="Landing_features_items_item_image_img" src="./images/community.svg" alt="" />
+                    <img class="Landing_features_items_item_image_img" src="{base}/images/community.svg" alt="" />
                 </div>
                 <div class="Landing_features_items_item_title">
                     Community Driven
@@ -157,7 +158,7 @@
             </div>
             <div class="Landing_features_items_item">
                 <div class="Landing_features_items_item_image">
-                    <img class="Landing_features_items_item_image_img" src="./images/monero.png" alt="" />
+                    <img class="Landing_features_items_item_image_img" src="{base}/images/monero.png" alt="" />
                 </div>
                 <div class="Landing_features_items_item_title">
                     Play with Monero
@@ -184,13 +185,13 @@
                 <div class="Landing_sections_section_left">
                     <div class="Landing_sections_section__tripleImages_images">
                         <div class="Landing_sections_section__tripleImages_images_image" style="right: 110px; width: 300px; top: 100px;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/mac/lobby-simultaneous.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/lobby-simultaneous.png" alt="" />
                         </div>
                         <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; left: -90px; right: auto; top: 0px; bottom: auto;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/mac/game-one.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/game-one.png" alt="" />
                         </div>
                         <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; right: -40px; bottom: -500px; top: auto;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/mac/game-two.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/game-two.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -231,13 +232,13 @@
                 <div class="Landing_sections_section_left">
                     <div class="Landing_sections_section__tripleImages_images">
                         <div class="Landing_sections_section__tripleImages_images_image" style="left: 110px; width: 300px; top: 100px;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/mac/lobby.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/lobby.png" alt="" />
                         </div>
                         <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; right: -90px; left: auto; top: 0px; bottom: auto;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/web/signup-safari.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/web/signup-safari.png" alt="" />
                         </div>
                         <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; left: -40px; bottom: -500px; top: auto;">
-                            <img class="Landing_sections_section__tripleImages_images_image_img" src="./images/screenshots/web/login-chrome.png" alt="" />
+                            <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/web/login-chrome.png" alt="" />
                         </div>
                     </div>
                 </div>

@@ -1,18 +1,6 @@
-# create-svelte
+# pokerunicorn-website 🦄
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+This is the website for the PokerUnicorn project. It is built with SvelteKit.
 
 ## Developing
 
@@ -35,4 +23,8 @@ npm run build
 
 You can preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## License
+
+GNU General Public License v3.0
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for details.

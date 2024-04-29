@@ -18,30 +18,30 @@
         <a class="Header_menu_item {current_page == 'home' ? 'Header_menu_item__current': ''}" href="{base}/">
             Home
         </a>
-        <a class="Header_menu_item {current_page == 'play' ? 'Header_menu_item__current': ''}" href="{base}/play">
-            Play the Demo
+        <a class="Header_menu_item" href="https://meowingcat.io/projects/poker/play/" target="_blank">
+            Play Demo
         </a>
         <a class="Header_menu_item {current_page == 'documentation' ? 'Header_menu_item__current': ''}" href="{base}/documentation">
-
             Documentation
-        </a>
-        <a class="Header_menu_item {current_page == 'donate' ? 'Header_menu_item__current': ''}" href="{base}/donate">
-            <div class="Header_menu_item_icon">
-                <HeartIcon size=15 />
-            </div>
-            <div class="Header_menu_item_label">
-                Donate
-            </div>
-            <div class="Header_menu_item_icon">
-                <HeartIcon size=15 />
-            </div>
         </a>
     </div>
     <div class="Headers_rightMenu">
         <div class="Headers_rightMenu">
-            <a class="Headers_rightMenu_item" href="https://github.com/PokerUnicorn">
-                <GithubIcon size=15 />
-                GitHub
+            <a class="Header_menu_item {current_page == 'donate' ? 'Header_menu_item__current': ''}" href="{base}/donate">
+                <div class="Header_menu_item_icon">
+                    <HeartIcon size=15 />
+                </div>
+                <div class="Header_menu_item_label">
+                    Donate
+                </div>
+            </a>
+            <a class="Header_menu_item" href="https://github.com/PokerUnicorn">
+                <div class="Header_menu_item_icon">
+                    <GithubIcon size=15 />
+                </div>
+                <div class="Header_menu_item_label">
+                    GitHub
+                </div>
             </a>
         </div>
     </div>
@@ -82,7 +82,7 @@
         align-items: center;
         justify-content: center;
         flex-grow: 1;
-        padding-right: 90px;
+        padding-right: 30px;
     }
 
     .Header_menu_item,
@@ -100,7 +100,6 @@
     }
 
     .Header_menu_item_icon {
-        color: rgb(255, 173, 224);
     }
 
     .Header_menu_item_label {
@@ -124,14 +123,5 @@
     .Headers_rightMenu {
         display: flex;
         align-items: center;
-    }
-
-    .Headers_rightMenu_item,
-    a.Headers_rightMenu_item,
-    a.Headers_rightMenu_item:visited {
-        padding: 0px 10px;
-        margin: 0px 10px;
-        text-decoration: none;
-        color: white;
     }
 </style>

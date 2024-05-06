@@ -21,6 +21,9 @@
         <a class="Header_menu_item" href="https://meowingcat.io/projects/poker/play/" target="_blank">
             Play Demo
         </a>
+        <a class="Header_menu_item {current_page == 'downloads' ? 'Header_menu_item__current': ''}" href="{base}/downloads">
+            Downloads
+        </a>
         <a class="Header_menu_item {current_page == 'documentation' ? 'Header_menu_item__current': ''}" href="{base}/documentation">
             Documentation
         </a>

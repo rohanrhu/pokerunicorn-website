@@ -184,13 +184,13 @@
             <div class="Landing_sections_section_content">
                 <div class="Landing_sections_section_left">
                     <div class="Landing_sections_section__tripleImages_images">
-                        <div class="Landing_sections_section__tripleImages_images_image" style="right: 110px; width: 300px; top: 100px;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="right: 110px; top: 100px;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/lobby-simultaneous.png" alt="" />
                         </div>
-                        <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; left: -90px; right: auto; top: 0px; bottom: auto;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="left: -90px; right: auto; top: 0px; bottom: auto;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/game-one.png" alt="" />
                         </div>
-                        <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; right: -40px; bottom: -500px; top: auto;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="right: -40px; bottom: -500px; top: auto;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/game-two.png" alt="" />
                         </div>
                     </div>
@@ -231,13 +231,13 @@
                 </div>
                 <div class="Landing_sections_section_left">
                     <div class="Landing_sections_section__tripleImages_images">
-                        <div class="Landing_sections_section__tripleImages_images_image" style="left: 110px; width: 300px; top: 100px;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="left: 110px; top: 100px;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/mac/lobby.png" alt="" />
                         </div>
-                        <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; right: -90px; left: auto; top: 0px; bottom: auto;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="right: -90px; left: auto; top: 0px; bottom: auto;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/web/signup-safari.png" alt="" />
                         </div>
-                        <div class="Landing_sections_section__tripleImages_images_image" style="width: 300px; left: -40px; bottom: -500px; top: auto;">
+                        <div class="Landing_sections_section__tripleImages_images_image" style="left: -40px; bottom: -500px; top: auto;">
                             <img class="Landing_sections_section__tripleImages_images_image_img" src="{base}/images/screenshots/web/login-chrome.png" alt="" />
                         </div>
                     </div>
@@ -292,12 +292,14 @@
         justify-content: center;
         box-shadow: 0px 0px 30px 0px rgba(26, 2, 81, 0.5);
         border-radius: 5px;
+        width: 90%;
+        max-width: 400px;
     }
-
+    
     .Landing_top_screenshots_items_item_image_img {
-        width: 400px;
         display: block;
         margin: auto;
+        width: 100%;
     }
 
     .Landing_top_screenshots_items .Landing_top_screenshots_items_item:nth-of-type(1) {
@@ -317,6 +319,8 @@
         min-height: 400px;
         position: relative;
         color: black;
+        display: flex;
+        justify-content: center;
     }
 
     .Landing_features_topWaves {
@@ -339,24 +343,94 @@
     }
 
     .Landing_features_items {
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(290px, 1fr));
+        max-width: 1200px;
+        gap: 20px;
+        justify-content: center;
         align-items: start;
-        justify-content: space-evenly;
         padding: 50px 0px;
         position: relative;
+    }
+
+    @media (max-width: 1200px) {
+        .Landing_features_items {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .Landing_sections_section_content {
+            padding: 0px 50px !important;
+        }
+
+        .Landing_sections_section__tripleImages_images {
+            margin-top: 100px !important;
+        }
+
+        .Landing_sections_section__tripleImages_images_image {
+            width: 250px !important;
+            perspective: 200px !important;
+        }
+
+        .Landing_sections_section__tripleImages_images_image {
+            top: 0px !important;
+            left: 0px !important;
+            right: auto !important;
+            bottom: auto !important;
+        }
+        .Landing_sections_section__tripleImages_images_image:nth-of-type(1) {
+            top: 50px !important;
+            left: 100px !important;
+            right: auto !important;
+            bottom: auto !important;
+        }
+        .Landing_sections_section__tripleImages_images_image:nth-of-type(2) {
+            top: 100px !important;
+            left: 200px !important;
+            right: auto !important;
+            bottom: auto !important;
+        }
+    }
+
+    @media (max-width: 890px) {
+        .Landing_sections_section_explanation {
+            padding: 0px 20px;
+        }
+
+        .Landing_sections_section_content {
+            padding: 0px 50px;
+        }
+
+        .Landing_sections_section_left {
+            display: none;
+        }
+
+        .Landing_sections_section_right {
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            text-align: center !important;
+        }
+
+        .Landing_sections_section_explanation {
+            align-items: center !important;
+        }
+    }
+
+    @media (max-width: 600px) {
+        .Landing_features_items {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
 
     .Landing_features_items_item {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px;
+        padding: 0px 20px;
         border-radius: 5px;
         box-sizing: border-box;
         flex-direction: column;
         justify-items: center;
         text-align: center;
-        width: 290px;
         line-height: 24px;
     }
     
@@ -503,7 +577,7 @@
         position: absolute;
         display: block;
         transition: all 0.5s;
-        width: 200px;
+        width: 300px;
         perspective: 300px;
     }
 

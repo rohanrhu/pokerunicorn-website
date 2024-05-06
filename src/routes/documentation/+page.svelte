@@ -84,6 +84,7 @@
     a.Documentation_list_item,
     a.Documentation_list_item:visited {
         text-decoration: none;
+        color: black;
     }
     
     .Documentation_list_item:hover {

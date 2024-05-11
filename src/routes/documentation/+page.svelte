@@ -12,7 +12,7 @@
     </p>
 
     <div class="Documentation_list" style="margin-top: 50px;">
-        <a href="https://github.com/PokerUnicorn/PokerServer"  class="Documentation_list_item DelayedAppear__250ms">
+        <a href="https://github.com/rohanrhu/pokerunicorn-server"  class="Documentation_list_item DelayedAppear__250ms">
             <div class="Documentation_list_item_title">
                 Game Server GitHub Repo
             </div>
@@ -20,7 +20,7 @@
                 The server repository. Contains the server code and the API documentation.
             </div>
         </a>
-        <a href="https://github.com/PokerUnicorn/PokerServer/wiki" class="Documentation_list_item DelayedAppear__500ms">
+        <a href="https://rohanrhu.github.io/pokerunicorn-server" class="Documentation_list_item DelayedAppear__500ms">
             <div class="Documentation_list_item_title">
                 Game Server Documentation
             </div>
@@ -28,7 +28,7 @@
                 The server documentation. Contains the API documentation and the server setup guide.
             </div>
         </a>
-        <a href="https://github.com/PokerUnicorn/PokerClient"  class="Documentation_list_item DelayedAppear__1000ms">
+        <a href="https://github.com/rohanrhu/pokerunicorn-client"  class="Documentation_list_item DelayedAppear__1000ms">
             <div class="Documentation_list_item_title">
                 Game Client GitHub Repo
             </div>

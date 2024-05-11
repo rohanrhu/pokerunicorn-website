@@ -541,8 +541,8 @@
 
     @media (max-width: 618px) {
         .Landing_video_frame {
-            width: 400px;
-            height: 225px;
+            width: 350px;
+            height: 200px;
         }
     }
     

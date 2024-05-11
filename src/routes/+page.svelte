@@ -185,7 +185,7 @@
                 Watch the Video
             </div>
             <div class="Landing_video_frame">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/amNykTtCyNw?si=3wrsjAn-hljkZXYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe src="https://www.youtube.com/embed/amNykTtCyNw?si=3wrsjAn-hljkZXYB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </div>
     </div>
@@ -508,6 +508,11 @@
     .Landing_video_content {
         color: black;
         z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
     }
 
     .Landing_video_title {
@@ -523,13 +528,22 @@
     }
 
     .Landing_video_frame {
-        display: inline-block;
         border: 10px solid rgb(255, 173, 224);
         border-radius: 10px;
         box-shadow: 0 0 30px 0 rgba(189, 0, 163, 0.4);
+        width: 560px;
+        height: 315px;
     }
     .Landing_video_frame iframe {
-        display: block;
+        width: 100%;
+        height: 100%;
+    }
+
+    @media (max-width: 618px) {
+        .Landing_video_frame {
+            width: 400px;
+            height: 225px;
+        }
     }
     
     .wave {
